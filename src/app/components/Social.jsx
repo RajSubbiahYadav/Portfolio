@@ -3,8 +3,8 @@ import Link from "next/link";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa"; // Ensure these icons are imported
 
 const socials = [
-  { icon: <FaGithub />, path: "https://github.com/" },
-  { icon: <FaLinkedinIn />, path: "https://linkedin.com/" }, // Correct import
+  { icon: <FaGithub />, path: "https://github.com/RajSubbiahYadav" },
+  { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/rajsubbiahyadav" }, // Correct import
   { icon: <FaInstagram />, path: "https://instagram.com/" },
 ];
 
