@@ -12,5 +12,4 @@ const Menu = ({ links }) => {
     </ul>
   );
 };
-
 export default Menu

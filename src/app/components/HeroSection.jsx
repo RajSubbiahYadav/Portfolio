@@ -26,8 +26,8 @@ const HeroSection = () => {
             <defs>
               <linearGradient id="gradient" gradientTransform="rotate(45)">
                 <stop offset="0%" stopColor="#3b82f6" /> {/* Blue */}
-                <stop offset="50%" stopColor="#a855f7" /> {/* Purple */}
-                <stop offset="100%" stopColor="#ec4899" /> {/* Pink */}
+                <stop offset="50%" stopColor="#7FFF00" /> {/* Purple */}
+                <stop offset="100%" stopColor="#004526" /> {/* Pink */}
               </linearGradient>
             </defs>
 
@@ -53,6 +53,8 @@ const HeroSection = () => {
           </svg>
 
           {/* Profile Image */}
+          <div className="rounded-full bg-[#181818] w-[295px] h-[295px] lg:w-[395px] lg:h-[395px] relative">
+           
           <Image
             src="/images/hero.png"
             alt="hero image"
@@ -76,13 +78,14 @@ const HeroSection = () => {
             priority
             quality={100}
           />
+          </div>
         </motion.div>
       </div>
 
       {/* Text Section */}
       <div className="col-span-7 place-self-center place-items-center grid lg:place-items-start order-2 lg:order-1">
         <h1 className="text-white max-w-2xl mb-4 lg:text-6xl text-4xl font-extrabold">
-          <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+          <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
             Hello, I'm{" "}
           </span>{" "}
           <br />
@@ -108,10 +111,10 @@ const HeroSection = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center mt-4">
           <div className="flex flex-row gap-4">
-            <button className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full">
+            <button className="bg-gradient-to-br  from-primary-500 to-secondary-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full">
               Hire Me
             </button>
-            <button className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1 text-white rounded-full">
+            <button className="bg-gradient-to-br from-primary-500 to-secondary-500 px-1 py-1 text-white rounded-full">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
@@ -119,7 +122,7 @@ const HeroSection = () => {
           </div>
           <Social
             containerStyles="flex flex-row gap-4"
-            iconStyles="w-12 h-12 flex items-center justify-center border border-gradient-to-br from-blue-500 via-purple-500 to-pink-500 border-2 rounded-full hover:bg-gradient-to-br hover:from-blue-500 hover:via-purple-500 hover:to-pink-500 hover:text-white hover:border-transparent transition-all duration-300"
+            iconStyles="w-12 h-12 flex items-center justify-center border border-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 border-2 rounded-full hover:bg-gradient-to-br hover:from-blue-500 hover:via-primary-500 hover:to-secondary-500 hover:text-white hover:border-transparent transition-all duration-300"
           />
         </div>
       </div>
