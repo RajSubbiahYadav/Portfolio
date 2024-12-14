@@ -53,7 +53,8 @@ const Achievements = () => {
                       friction: 100,
                       tension: 150, // Adjust tension for smoothness
                       precision: 0.1, // Increase precision for smooth transition
-                      velocity: 0.15   };
+                      velocity: 0.15,
+                    };
                   }}
                 />
                 {achievement.postfix}

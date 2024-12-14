@@ -1,11 +1,10 @@
-import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
-import ProjectSection from "./components/ProjectSection";
 import Footer from "./components/Footer";
 import ContactPage from "./components/Contact";
-import Achievements from "./components/Achivements";
+// import Achievements from "./components/Achivements";
+import ProjectsSection from "./components/Project";
 
 export default function Home() {
   return (
@@ -15,12 +14,12 @@ export default function Home() {
        <section id="home">
         <HeroSection />
         </section>
-        <Achievements/>
+        {/* <Achievements/> */}
         <section id="about">
         <AboutSection/>
         </section>
         <section id="projects">
-        <ProjectSection/>
+        <ProjectsSection/>
         </section>
         <section id="contact">
         <ContactPage/>

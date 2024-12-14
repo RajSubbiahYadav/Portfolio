@@ -19,6 +19,17 @@ html {
   scroll-behavior: smooth;
 }
 
+  #projects, #contact {
+  scroll-margin-top: 80px; /* Adjust to match your navbar height */
+}
+
+#about {
+  scroll-margin-top: 40px; /* Adjust to match your navbar height */
+}
+
+#home {
+  scroll-margin-top: 150px; /* Adjust to match your navbar height */
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
