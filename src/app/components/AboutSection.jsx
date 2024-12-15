@@ -65,9 +65,9 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <span className="text-white text-base md:text-lg">
             <p>
-              Hi, I’m Raj Subbiah Yadav, a Software Developer and Full-Stack
+              Hi, I&apos;m Raj Subbiah Yadav, a Software Developer and Full-Stack
               Developer with a focus on AI/ML and a B.Tech in Electronics &
-              Computer Science. I’m passionate about leveraging technology to
+              Computer Science. I&apos;m passionate about leveraging technology to
               create solutions that make a difference.
             </p>
             <p>
@@ -78,9 +78,9 @@ const AboutSection = () => {
               reflect my dedication to learning and innovation.
             </p>
             <p>
-              I’m always eager to take on new challenges, improve my skills, and
+              I&apos;m always eager to take on new challenges, improve my skills, and
               collaborate with others to build impactful projects. Feel free to
-              explore my work, and let’s connect!
+              explore my work, and let&apos;s connect!
             </p>
           </span>
           <div className="flex flex-row justify-start mt-8">

@@ -79,7 +79,7 @@ const HeroSection = () => {
       <div className="col-span-7 place-self-center place-items-center grid lg:place-items-start order-2 lg:order-1">
         <h1 className="text-white max-w-2xl mb-4 lg:text-6xl text-4xl font-extrabold">
           <span className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-            Hello, I'm{" "}
+            Hello, I&apos;m{" "}
           </span>{" "}
           <br />
           <TypeAnimation
@@ -102,7 +102,7 @@ const HeroSection = () => {
           I am a passionate software developer with a knack for creating
           efficient and innovative solutions. With a strong background in web
           development and a keen eye for detail, I strive to deliver
-          high-quality projects that exceed expectations. Let's connect and
+          high-quality projects that exceed expectations. Let&apos;s connect and
           build something amazing
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center mt-4">
