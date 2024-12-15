@@ -5,6 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import Social from "./Social";
 import { motion } from "framer-motion";
 import Link from "next/link"; 
+import Hero from "./../../../public/images/projects/Hero.png"
 
 const HeroSection = () => {
   const downloadResume = () => {
@@ -57,7 +58,7 @@ const HeroSection = () => {
           {/* Profile Image */}
           <div className="rounded-full bg-[#181818] w-[295px] h-[295px] lg:w-[395px] lg:h-[395px] relative">
             <Image
-              src="/images/hero.png"
+              src="/images/projects/Hero.png"
               alt="hero image"
               className="rounded-full"
               style={{

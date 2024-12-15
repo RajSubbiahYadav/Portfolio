@@ -22,8 +22,8 @@ const projectsData = [
       "A personal website built using Next.js to showcase skills, projects, and experiences, featuring a clean and responsive design.",
     image: "/images/projects/portfolio.jpg",
     tag: ["All", "Software"],
-    gitUrl: "",
-    previewUrl: "",
+    gitUrl: "https://github.com/RajSubbiahYadav/Portfolio",
+    previewUrl: "https://portfolio.buildbyraj.com/",
   },
   {
     id: 3,
